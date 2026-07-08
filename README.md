@@ -1,16 +1,79 @@
-# React + Vite
+# React Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple calculator application built using React to demonstrate state management, button events, conditional rendering, and component-based architecture.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Perform basic arithmetic operations
+* Addition, subtraction, multiplication, and division
+* Clear calculator display
+* Dynamic display updates
+* Reusable button components
+* Handle user interactions through button clicks
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* JavaScript (ES6+)
+* CSS
+* Vite
 
-## Expanding the Oxlint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```text
+react-calculator/
+├── src/
+│   ├── components/
+│   │   └── Button.jsx
+│   ├── Calculator.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+├── public/
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── index.html
+├── .gitignore
+└── README.md
+```
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/react-calculator.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd react-calculator
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+## Concepts Demonstrated
+
+* React Components
+* useState
+* Event Handling
+* Conditional Rendering
+* Props
+* Reusable Components
+* State Management
+
+## Author
+
+Deepthi Sree
