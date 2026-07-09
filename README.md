@@ -76,4 +76,4 @@ npm run dev
 
 ## Author
 
-Deepthi Sree
+Nishanth Veera
